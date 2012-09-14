@@ -1,0 +1,67 @@
+body {
+	font-family: "proxima-nova";
+	font-style: normal;
+	font-weight: 300;
+}
+
+blockquote {
+	font-weight: 300;
+	font-style: italic;
+	text-indent: 1em;
+	color: rgba(119, 119, 119, 1.00);
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-style: normal;
+	font-weight: 400;
+	font-family: "quatro-slab";
+	margin-bottom: 1.125em;
+	color:$darkerGray;
+}
+
+h1 {
+	font-size: 2.75em;
+	line-height: 1.25em;
+	margin-bottom: 0.5em;
+	line-height: 1.125em;
+}
+
+h2 {
+	font-size: 2.5em;
+	margin-bottom: 0.5em;
+}
+
+h3 {
+	font-size: 2em;
+	color: rgba(71, 71, 71, 1.00);
+	letter-spacing: 0px;
+}
+
+h4 {
+	color: rgba(191, 30, 81, 1.00);
+	font-size: 1.5em;
+}
+
+h5 {font-size: 1.25em; }
+h6 {font-size: 1em; }
+
+p {
+	font-style: normal;
+	font-weight: 300;
+	font-family: proxima-nova;
+	font-size: 18px;
+	line-height: 1.75em;
+	color: rgba(71, 71, 71, 1.00);
+	margin-bottom: 1em;
+}
+
+a:link {
+	color: rgba(191, 30, 81, 1.00);
+	text-decoration: none;
+	&:hover {
+	text-decoration: underline;
+	color: rgba(255, 144, 0, 1.00);
+	}
+}
+
+

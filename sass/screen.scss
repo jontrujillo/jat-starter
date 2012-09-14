@@ -1,0 +1,40 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+//Compass helpers
+@import "compass/css3";
+
+
+// -----------------------------------
+//Include the Variables
+// -----------------------------------
+	@import "vars";
+
+// -----------------------------------
+//Include the Reset styles
+// -----------------------------------
+	@import "reset";
+
+// -----------------------------------
+//Include the Base Styles
+// -----------------------------------
+	@import "base";
+	@import "type";
+	@import "slider";
+
+// -----------------------------------
+// Mobile Styles
+// -----------------------------------
+	@import "4col";
+
+// -----------------------------------
+// Tablet & Smaller Screen Styles Styles
+// -----------------------------------
+	@import "8col";
+
+// -----------------------------------
+// Large Screen Styles Styles
+// -----------------------------------
+	@import "16col";
